@@ -4,9 +4,12 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+container {
+  margin: 20px auto;
+}
+
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -105,10 +108,15 @@ p {
   font-size: 15px;
 }
 
+nav {
+  margin-bottom: 70px;
+}
+
 .navbar-home {
   text-decoration: none;
   font-size: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
   color: #000000;
 }
 

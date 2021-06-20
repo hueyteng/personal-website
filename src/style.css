@@ -4,12 +4,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-container {
-  margin: 20px auto;
-}
-
 body {
-  margin: 60px auto;
+  margin: 120px auto;
 }
 
 h1,
@@ -110,24 +106,23 @@ p {
   font-size: 15px;
 }
 
-nav {
-  margin-bottom: 70px;
-}
-
-.navbar-home {
+.navbar-brand {
   text-decoration: none;
   font-size: 20px;
-  margin-left: 20px;
   margin-right: 50px;
   color: #000000;
 }
 
-.navbar-home:hover {
-  cursor: pointer;
-  color: #000000;
-}
-
 @media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
   .project-buttons,
   .my-work {
     display: block;

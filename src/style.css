@@ -20,7 +20,8 @@ h3 {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 70px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -86,8 +87,9 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 23px;
   text-decoration: none;
+  margin-top: 8px;
 }
 
 .email-link:hover {
@@ -122,4 +124,19 @@ nav {
 
 .navbar-home:hover {
   cursor: pointer;
+  color: #000000;
+}
+
+@media (max-width: 576px) {
+  .project-buttons,
+  .my-work {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-me,
+  .email-link {
+    font-size: 18px;
+  }
 }
